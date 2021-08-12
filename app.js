@@ -28,16 +28,16 @@ function clickHandler(){
         document.getElementById("result").innerText =  'No Change!' ;
         }
     else if(growth < 0){
-        document.getElementById("result").innerText =  `LOSS : ${Math.abs(growthPercentage)}%.  You have lost total ₹${Math.abs(growthAmount)} :(`;
-        document.getElementById("result").style.color = "var(--secondary-color)";
-        document.getElementById("result").style.borderColor = "var(--secondary-color)";
+        document.getElementById("result").innerText =  `LOSS : ${Math.abs(growthPercentage)}%.  You have lost ₹${Math.abs(growthAmount)} :(`;
+        document.getElementById("result").style.color = "white";
+        document.getElementById("result").style.backgroundColor = "var(--secondary-color)";
         document.getElementById("calculate-btn").style.backgroundColor = "var(--secondary-color)";
     }
 
     else{
-        document.getElementById("result").innerText =  `PROFIT : ${Math.abs(growthPercentage)}%. You have gained total ₹${Math.abs(growthAmount)} :)`;
-        document.getElementById("result").style.color = "var(--primary-color)";
-        document.getElementById("result").style.borderColor = "var(--primary-color)";
+        document.getElementById("result").innerText =  `PROFIT : ${Math.abs(growthPercentage)}%. You have gained ₹${Math.abs(growthAmount)} :)`;
+        document.getElementById("result").style.color = "white";
+        document.getElementById("result").style.backgroundColor = "var(--primary-color)";
         
         
     }

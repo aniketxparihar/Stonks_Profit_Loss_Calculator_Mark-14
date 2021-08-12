@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 
 :root {
-  --primary-color: #65c219;
+  --primary-color: #19aec2;
   --secondary-color: #eb1757;
   --text-color: #afafaf;
 }
@@ -12,12 +12,13 @@ body {
   margin: auto;
   text-align: center;
   font-family: "Poppins", sans-serif;
+
 }
 
-nav {
+h1{
   font-size: 3rem;
-  font-weight: 500;
-  color: #2c2c2c;
+  font-family: Arial, sans-serif;
+  color: #0a677e;
   padding:2rem;
 }
 
@@ -26,7 +27,6 @@ main {
   display: block;
   margin: auto;
   max-width: 600px;
-  border: 1px solid var(--text-color);
   padding: 4rem;
   margin-bottom: 3rem;
 }
@@ -41,7 +41,7 @@ input {
   font-weight: 300;
   background-color: whitesmoke;
   border-color: var(--text-color);
-  width: 400px;
+  width: 200px;
   margin-bottom: 2rem;
 }
 
@@ -77,3 +77,6 @@ button {
   font-size: large;
 }
 
+img{
+height:300px;
+}
